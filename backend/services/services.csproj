@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="services\SyncPushInteractor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="codecracker.CSharp" Version="1.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.4.0" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.5.3" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\entities\entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="gateways\file\" />
+    <Folder Include="gateways\http\" />
+    <Folder Include="gateways\smtp\" />
+    <Folder Include="services\apontamento_tipo\commands\" />
+    <Folder Include="services\apontamento_tipo\events\" />
+    <Folder Include="services\apontamento_tipo\validations\" />
+    <Folder Include="services\area\commands\" />
+    <Folder Include="services\area\events\" />
+    <Folder Include="services\area\validations\" />
+    <Folder Include="services\cultura\commands\" />
+    <Folder Include="services\cultura\events\" />
+    <Folder Include="services\cultura\validations\" />
+    <Folder Include="services\equipe\commands\" />
+    <Folder Include="services\equipe\events\" />
+    <Folder Include="services\equipe\validations\" />
+    <Folder Include="services\fazenda\commands\" />
+    <Folder Include="services\fazenda\events\" />
+    <Folder Include="services\fazenda\validations\" />
+    <Folder Include="services\fazenda_tipo\commands\" />
+    <Folder Include="services\fazenda_tipo\events\" />
+    <Folder Include="services\fazenda_tipo\validations\" />
+    <Folder Include="services\login\events\" />
+    <Folder Include="services\maturidade_solo\commands\" />
+    <Folder Include="services\maturidade_solo\events\" />
+    <Folder Include="services\maturidade_solo\validations\" />
+    <Folder Include="services\pessoa\commands\" />
+    <Folder Include="services\pessoa\events\" />
+    <Folder Include="services\pessoa\validations\" />
+    <Folder Include="services\pessoa_tipo\commands\" />
+    <Folder Include="services\pessoa_tipo\events\" />
+    <Folder Include="services\pessoa_tipo\validations\" />
+    <Folder Include="services\safra\commands\" />
+    <Folder Include="services\safra\events\" />
+    <Folder Include="services\safra\validations\" />
+    <Folder Include="services\servico\commands\" />
+    <Folder Include="services\servico\events\" />
+    <Folder Include="services\servico\validations\" />
+    <Folder Include="services\servico_tipo\commands\" />
+    <Folder Include="services\servico_tipo\events\" />
+    <Folder Include="services\servico_tipo\validations\" />
+    <Folder Include="services\turno\commands\" />
+    <Folder Include="services\turno\events\" />
+    <Folder Include="services\turno\validations\" />
+    <Folder Include="services\unidade\commands\" />
+    <Folder Include="services\unidade\events\" />
+    <Folder Include="services\unidade\validations\" />
+  </ItemGroup>
+
+</Project>

@@ -63,7 +63,7 @@ ButtonPaginate.propTypes = {
 	children: PropTypes.node,
 	isbackornext: PropTypes.bool,
 };
-
+//Propriedades padrões do botão quando nenhuma props for passada;
 ButtonPaginate.defaultProps = {
 	className: '',
 	icon: '',

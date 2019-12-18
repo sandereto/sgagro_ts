@@ -81,6 +81,8 @@ export default class Table extends Component {
 		return (
 			<div className='container'>
 				<div>
+					{/* Renderiza o componente "Table.Style", englobando um "Thead" e "Tbody" 
+						que terão suas funcionalidades passadas por props */}
 					<TableStyle align={align} className={className}>
 						<Thead
 							columns={columns}
@@ -108,6 +110,8 @@ export default class Table extends Component {
 					<div className='col-md-8'>
 						<div className='ml-5'>
 							{showPaginate && (
+								// Renderiza o componenter de paginação "Pagination",
+								// passando suas funcionalidades por props
 								<Pagination
 									onChangePage={onChangePage}
 									totalPages={totalPages}

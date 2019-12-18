@@ -13,6 +13,7 @@ import variaveis from '../../styles/variaveis.scss';
 // $suspensao: #da690b !default;
 // $cetidao: #6f42c1 !default;
 
+//Define e exporta um estilo "Tag.style"
 export const TagStyle = styled.div`
   && {
 	display: inline-block;

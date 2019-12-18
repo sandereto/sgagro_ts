@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+//Define e exporta um estilo "Header.style"
 export const HeaderStyle = styled.header`
   background-position: center;
   background-size: cover;

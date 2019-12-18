@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import variaveis from "../../../styles/variaveis.scss";
-
+//Define e exporta um estilo "Footer.style"
 export const FooterStyle = styled.footer`
   && {
     bottom: 0;

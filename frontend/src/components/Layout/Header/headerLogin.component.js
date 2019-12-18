@@ -4,6 +4,8 @@ import { Col, Container, Row } from "reactstrap";
 import { HeaderStyle } from "./header.style";
 import logo from '../../../assets/logo/logo.png';
 
+//Componente de "Header" parecido com o outro, mas com menos funcionalidades devido a ser um "Header"
+//para usuários ainda não logados no sistema
 const HeaderLogin = props => (
 	<HeaderStyle>
 		<Container>

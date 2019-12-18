@@ -2,6 +2,8 @@ import { Button } from 'reactstrap';
 import styled from 'styled-components';
 import variaveis from '../../styles/variaveis.scss';
 
+
+
 export const ButtonStyle = styled(Button)`
 	&& {
 		margin: 1.5px;

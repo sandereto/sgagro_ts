@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { ButtonPaginateStyle } from './buttonPaginate.style';
 
+//Importa o componente de estilo "Component.style" e engloba todas as outras tags desse novo componente com ele,
+//fazendo com que todos tenham o estilo de "Component.style"
 const ButtonPaginate = (props) => {
 	const {
 		onClick,
@@ -16,6 +18,7 @@ const ButtonPaginate = (props) => {
 	} = props;
 
 	return (
+		//Renderiza o botão de paginação com funções passadas por props
 		<ButtonPaginateStyle
 			onClick={onClick}
 			className={className}

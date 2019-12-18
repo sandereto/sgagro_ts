@@ -3,6 +3,7 @@ import { Button } from 'reactstrap';
 import styled from 'styled-components';
 import variaveis from '../../styles/variaveis.scss';
 
+//Define e exporta um estilo "Required.style"
 function getStandardColor(props) {
 	let color;
 

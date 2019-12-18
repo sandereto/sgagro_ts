@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import variaveis from "../../styles/variaveis.scss";
 
+//Define e exporta um estilo "Title.style"
 export const TitleStyle = styled.h5`
   && {
     font-size: 21px;

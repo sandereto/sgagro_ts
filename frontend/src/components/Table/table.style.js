@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import variaveis from '../../styles/variaveis.css';
-
+// Cria e exporta o componente de estilos "Table.style"
 export const TableStyle = styled.table`
 	text-align: ${props => (props.align ? props.align : 'center')};
 	width: 100%;

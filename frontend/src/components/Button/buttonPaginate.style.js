@@ -15,6 +15,7 @@ function getStandardColor(props) {
 	}
 	return color;
 }
+//Define o estilo do botão quando ativado ;
 
 function getActiveColor(props) {
 	let color;
@@ -28,6 +29,7 @@ function getActiveColor(props) {
 	}
 	return color;
 }
+
 
 export const ButtonPaginateStyle = styled(Button)`
 	&& {

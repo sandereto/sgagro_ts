@@ -2,6 +2,22 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { ButtonPaginateStyle } from './buttonPaginate.style';
 
+
+/*Componente Botão de paginação onde recebe-se propriedades de : 
+
+	onClick = Evento de Click do botão;
+	className = Classe do botão ;
+	type = Tipo do botão ;
+	isbackornext = 
+	iscurrent = 
+	ispagenumber = Numeração da página ;
+	icon = ícone do botão ;
+	text = Texto do botão ;
+	children = Filhos do botão ;
+
+
+
+*/
 const ButtonPaginate = (props) => {
 	const {
 		onClick,
